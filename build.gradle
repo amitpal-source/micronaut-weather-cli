@@ -4,7 +4,7 @@ plugins {
 }
 
 version = "0.1"
-group = "com.manu"
+group = "weather.cli"
 
 repositories {
     mavenCentral()
@@ -15,7 +15,7 @@ micronaut {
     testRuntime("junit5")
     processing {
         incremental(true)
-        annotations("com.manu.*")
+        annotations("weather.cli.*")
     }
 }
 
@@ -32,12 +32,12 @@ dependencies {
 
 
 application {
-    mainClass.set("com.manu.MicronautWeatherCliCommand")
+    mainClass.set("weather.cli.WeatherCliCommand")
 }
 
 java {
-    sourceCompatibility = JavaVersion.toVersion("1.11")
-    targetCompatibility = JavaVersion.toVersion("1.11")
+    sourceCompatibility = JavaVersion.toVersion("1.8")
+    targetCompatibility = JavaVersion.toVersion("1.8")
 }
 
 tasks {

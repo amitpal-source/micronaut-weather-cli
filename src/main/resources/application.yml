@@ -1,3 +1,8 @@
 micronaut:
   application:
-    name: micronautWeatherCli
+    name: weather-cli-with-picocli-only
+
+weather:
+  api:
+    url: https://api.weatherbit.io/v2.0/
+    key: ${WEATHER_API_KEY:invalid-api-key}

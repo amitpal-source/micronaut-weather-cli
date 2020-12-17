@@ -11,3 +11,6 @@ out/
 .project
 .settings
 .classpath
+.factorypath
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties

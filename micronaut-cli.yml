@@ -1,5 +1,5 @@
 applicationType: cli
-defaultPackage: com.manu
+defaultPackage: weather.cli
 testFramework: junit
 sourceLanguage: java
 buildTool: gradle
