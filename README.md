@@ -4,6 +4,7 @@
 ### use below steps to generate native-image
 * Register https://www.weatherbit.io/ to get api key
 * export WEATHER_API_KEY=your api key
+* export JAVA_HOME=graalvm home directory 
 * use $./gradlew nativeImage
 * to run $build/native-image/application forecast --country CA --city montreal
 The goal of this repository is to demonstrate a real-world use case of Micronaut with Picocli and GraalVM to generate powerful yet simple native images of a command-line application.
