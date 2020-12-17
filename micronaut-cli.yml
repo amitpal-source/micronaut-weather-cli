@@ -1,5 +1,6 @@
-profile: cli
-defaultPackage: weather.cli
----
+applicationType: cli
+defaultPackage: com.manu
 testFramework: junit
 sourceLanguage: java
+buildTool: gradle
+features: [app-name, graalvm, gradle, http-client, java, junit, logback, picocli, picocli-java-application, picocli-junit, readme, shade, yaml]
