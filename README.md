@@ -1,7 +1,7 @@
 # Micronaut Weather CLI application
 
 ### Micronaut 2.2.1 and GraalVM 20.3.0 Java 11
-### Use below steps to generate native-image
+### Use below steps to generate an AOT Native-image
 * Register https://www.weatherbit.io/ to get api key
 * export WEATHER_API_KEY=your api key
 * export JAVA_HOME=graalvm home directory 
